@@ -4,7 +4,7 @@
 
 Name:           python-%{pypi_name}
 Version:        1.1.3.post1
-Release:        1
+Release:        2
 Summary:        Python library for reading audo tags
 
 License:        BSD
