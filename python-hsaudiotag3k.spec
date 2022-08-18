@@ -35,8 +35,6 @@ rm -rf %{pypi_name}.egg-info
 %files -n python-%{pypi_name}
 #%%license LICENSE
 %doc README.rst CHANGES
-#%%{python3_sitelib}/__pycache__/*
-#%%{python3_sitelib}/%{pypi_name}.py
 %{python3_sitelib}/*
 
 %{python3_sitelib}/%{pypi_name}-%{version}-py%{python3_version}.egg-info
